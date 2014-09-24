@@ -1,0 +1,4 @@
+jooq-training
+=============
+
+jooq-training
