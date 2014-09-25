@@ -6,10 +6,6 @@ package jooq.training;
     24/09/2014
  */
 
-import jooq.training.generated.tables.interfaces.IAssure;
-import jooq.training.generated.tables.interfaces.IContrat;
-import jooq.training.generated.tables.records.AssureRecord;
-import jooq.training.generated.tables.records.ContratRecord;
 import org.jooq.DSLContext;
 import org.jooq.Result;
 import org.jooq.SQLDialect;
@@ -18,9 +14,14 @@ import org.jooq.impl.DSL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
 import java.sql.Timestamp;
 import java.util.List;
 
+import jooq.training.generated.tables.interfaces.IAssure;
+import jooq.training.generated.tables.interfaces.IContrat;
+import jooq.training.generated.tables.records.AssureRecord;
+import jooq.training.generated.tables.records.ContratRecord;
 import static jooq.training.generated.Tables.*;
 import static jooq.training.generated.Keys.*;
 
@@ -74,15 +75,15 @@ public class Main {
 
         /****************** Recupération entités ********************/
 
-        List<IAssure> assures = create.fetch(ASSURE).into(IAssure.class);
-        for (IAssure assure : assures) {
-            System.out.println("Assure : " + assure.getFirstName() + " " + assure.getLastName());
-            List<IContrat> contrats = create.select().from(CONTRAT).where(CONTRAT.ASSURE_ID.eq(assure.getId())).fetch().into(IContrat.class);
-            for (IContrat contrat : contrats) {
-                System.out.println("\tContrat " + contrat.getId() + " : Franchise = " + contrat.getFranchise() + ", Limite max = " + contrat.getLimiteMax());
-            }
-
-        }
+//        List<IAssure> assures = create.fetch(ASSURE).into(IAssure.class);
+//        for (IAssure assure : assures) {
+//            System.out.println("Assure : " + assure.getFirstName() + " " + assure.getLastName());
+//            List<IContrat> contrats = create.select().from(CONTRAT).where(CONTRAT.ASSURE_ID.eq(assure.getId())).fetch().into(IContrat.class);
+//            for (IContrat contrat : contrats) {
+//                System.out.println("\tContrat " + contrat.getId() + " : Franchise = " + contrat.getFranchise() + ", Limite max = " + contrat.getLimiteMax());
+//            }
+//
+//        }
 
 
         /****************** Recupération entités par FK********************/

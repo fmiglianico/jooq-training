@@ -1,3 +1,7 @@
+DROP DATABASE jooq;
+CREATE DATABASE jooq;
+USE jooq;
+
 CREATE TABLE assure (
   id              INTEGER     NOT NULL PRIMARY KEY AUTO_INCREMENT,
   first_name      VARCHAR(50),
@@ -27,3 +31,6 @@ CREATE TABLE element_contrat_to_contrat (
   CONSTRAINT fk_ec2c_contrat                FOREIGN KEY (contrat_id)            REFERENCES contrat (id)                 ON DELETE CASCADE,
   CONSTRAINT fk_ec2c_element_contrat       FOREIGN KEY (element_contrat_id)     REFERENCES element_contrat (id)         ON DELETE CASCADE
 );
+
+
+ALTER TABLE ASSURE DROP COLUMN date_of_birth;
