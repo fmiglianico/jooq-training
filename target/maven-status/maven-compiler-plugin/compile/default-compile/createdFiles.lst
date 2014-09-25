@@ -1,0 +1,12 @@
+jooq\training\generated\Tables.class
+jooq\training\generated\tables\ElementContrat.class
+jooq\training\generated\tables\interfaces\IElementContrat.class
+jooq\training\generated\tables\interfaces\IContrat.class
+jooq\training\generated\tables\daos\ElementContratToContratDao.class
+jooq\training\generated\tables\records\ElementContratToContratRecord.class
+jooq\training\generated\tables\pojos\Contrat.class
+jooq\training\generated\tables\interfaces\IAssure.class
+jooq\training\generated\tables\interfaces\IElementContratToContrat.class
+jooq\training\generated\tables\pojos\ElementContratToContrat.class
+jooq\training\generated\tables\pojos\Assure.class
+jooq\training\generated\tables\records\ElementContratRecord.class
