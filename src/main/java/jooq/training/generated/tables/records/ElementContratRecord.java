@@ -11,10 +11,10 @@ package jooq.training.generated.tables.records;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.training.generated.tables.records.ElementContratRecord> implements org.jooq.Record2<java.lang.Integer, java.lang.String>, jooq.training.generated.tables.interfaces.IElementContrat {
 
-	private static final long serialVersionUID = 236936056;
+	private static final long serialVersionUID = 1298933503;
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT.ID</code>.
+	 * Setter for <code>jooq.element_contrat.id</code>.
 	 */
 	@Override
 	public void setId(java.lang.Integer value) {
@@ -22,7 +22,7 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT.ID</code>.
+	 * Getter for <code>jooq.element_contrat.id</code>.
 	 */
 	@Override
 	public java.lang.Integer getId() {
@@ -30,18 +30,18 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT.CONDITION</code>.
+	 * Setter for <code>jooq.element_contrat.conditions</code>.
 	 */
 	@Override
-	public void setCondition(java.lang.String value) {
+	public void setConditions(java.lang.String value) {
 		setValue(1, value);
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT.CONDITION</code>.
+	 * Getter for <code>jooq.element_contrat.conditions</code>.
 	 */
 	@Override
-	public java.lang.String getCondition() {
+	public java.lang.String getConditions() {
 		return (java.lang.String) getValue(1);
 	}
 
@@ -90,7 +90,7 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	 */
 	@Override
 	public org.jooq.Field<java.lang.String> field2() {
-		return jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.CONDITION;
+		return jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.CONDITIONS;
 	}
 
 	/**
@@ -106,7 +106,7 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	 */
 	@Override
 	public java.lang.String value2() {
-		return getCondition();
+		return getConditions();
 	}
 
 	/**
@@ -123,7 +123,7 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	 */
 	@Override
 	public ElementContratRecord value2(java.lang.String value) {
-		setCondition(value);
+		setConditions(value);
 		return this;
 	}
 
@@ -145,7 +145,7 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	@Override
 	public void from(jooq.training.generated.tables.interfaces.IElementContrat from) {
 		setId(from.getId());
-		setCondition(from.getCondition());
+		setConditions(from.getConditions());
 	}
 
 	/**
@@ -171,10 +171,10 @@ public class ElementContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq
 	/**
 	 * Create a detached, initialised ElementContratRecord
 	 */
-	public ElementContratRecord(java.lang.Integer id, java.lang.String condition) {
+	public ElementContratRecord(java.lang.Integer id, java.lang.String conditions) {
 		super(jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT);
 
 		setValue(0, id);
-		setValue(1, condition);
+		setValue(1, conditions);
 	}
 }

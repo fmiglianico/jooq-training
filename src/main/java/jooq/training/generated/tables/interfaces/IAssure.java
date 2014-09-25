@@ -12,42 +12,42 @@ package jooq.training.generated.tables.interfaces;
 public interface IAssure extends java.io.Serializable {
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.ID</code>.
+	 * Setter for <code>jooq.assure.id</code>.
 	 */
 	public void setId(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.ID</code>.
+	 * Getter for <code>jooq.assure.id</code>.
 	 */
 	public java.lang.Integer getId();
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.FIRST_NAME</code>.
+	 * Setter for <code>jooq.assure.first_name</code>.
 	 */
 	public void setFirstName(java.lang.String value);
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.FIRST_NAME</code>.
+	 * Getter for <code>jooq.assure.first_name</code>.
 	 */
 	public java.lang.String getFirstName();
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.LAST_NAME</code>.
+	 * Setter for <code>jooq.assure.last_name</code>.
 	 */
 	public void setLastName(java.lang.String value);
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.LAST_NAME</code>.
+	 * Getter for <code>jooq.assure.last_name</code>.
 	 */
 	public java.lang.String getLastName();
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.DATE_OF_BIRTH</code>.
+	 * Setter for <code>jooq.assure.date_of_birth</code>.
 	 */
 	public void setDateOfBirth(java.sql.Timestamp value);
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.DATE_OF_BIRTH</code>.
+	 * Getter for <code>jooq.assure.date_of_birth</code>.
 	 */
 	public java.sql.Timestamp getDateOfBirth();
 

@@ -34,35 +34,35 @@ public class ContratDao extends org.jooq.impl.DAOImpl<jooq.training.generated.ta
 	}
 
 	/**
-	 * Fetch records that have <code>ID IN (values)</code>
+	 * Fetch records that have <code>id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Contrat> fetchById(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.Contrat.CONTRAT.ID, values);
 	}
 
 	/**
-	 * Fetch a unique record that has <code>ID = value</code>
+	 * Fetch a unique record that has <code>id = value</code>
 	 */
 	public jooq.training.generated.tables.pojos.Contrat fetchOneById(java.lang.Integer value) {
 		return fetchOne(jooq.training.generated.tables.Contrat.CONTRAT.ID, value);
 	}
 
 	/**
-	 * Fetch records that have <code>ASSURE_ID IN (values)</code>
+	 * Fetch records that have <code>assure_id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Contrat> fetchByAssureId(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.Contrat.CONTRAT.ASSURE_ID, values);
 	}
 
 	/**
-	 * Fetch records that have <code>FRANCHISE IN (values)</code>
+	 * Fetch records that have <code>franchise IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Contrat> fetchByFranchise(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.Contrat.CONTRAT.FRANCHISE, values);
 	}
 
 	/**
-	 * Fetch records that have <code>LIMITE_MAX IN (values)</code>
+	 * Fetch records that have <code>limite_max IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Contrat> fetchByLimiteMax(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.Contrat.CONTRAT.LIMITE_MAX, values);

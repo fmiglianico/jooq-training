@@ -12,22 +12,22 @@ package jooq.training.generated.tables.interfaces;
 public interface IElementContratToContrat extends java.io.Serializable {
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID</code>.
+	 * Setter for <code>jooq.element_contrat_to_contrat.contrat_id</code>.
 	 */
 	public void setContratId(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID</code>.
+	 * Getter for <code>jooq.element_contrat_to_contrat.contrat_id</code>.
 	 */
 	public java.lang.Integer getContratId();
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID</code>.
+	 * Setter for <code>jooq.element_contrat_to_contrat.element_contrat_id</code>.
 	 */
 	public void setElementContratId(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID</code>.
+	 * Getter for <code>jooq.element_contrat_to_contrat.element_contrat_id</code>.
 	 */
 	public java.lang.Integer getElementContratId();
 

@@ -11,19 +11,19 @@ package jooq.training.generated.tables.pojos;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ElementContrat implements jooq.training.generated.tables.interfaces.IElementContrat {
 
-	private static final long serialVersionUID = -1726398512;
+	private static final long serialVersionUID = -1712527434;
 
 	private java.lang.Integer id;
-	private java.lang.String  condition;
+	private java.lang.String  conditions;
 
 	public ElementContrat() {}
 
 	public ElementContrat(
 		java.lang.Integer id,
-		java.lang.String  condition
+		java.lang.String  conditions
 	) {
 		this.id = id;
-		this.condition = condition;
+		this.conditions = conditions;
 	}
 
 	@Override
@@ -37,13 +37,13 @@ public class ElementContrat implements jooq.training.generated.tables.interfaces
 	}
 
 	@Override
-	public java.lang.String getCondition() {
-		return this.condition;
+	public java.lang.String getConditions() {
+		return this.conditions;
 	}
 
 	@Override
-	public void setCondition(java.lang.String condition) {
-		this.condition = condition;
+	public void setConditions(java.lang.String conditions) {
+		this.conditions = conditions;
 	}
 
 	// -------------------------------------------------------------------------
@@ -56,7 +56,7 @@ public class ElementContrat implements jooq.training.generated.tables.interfaces
 	@Override
 	public void from(jooq.training.generated.tables.interfaces.IElementContrat from) {
 		setId(from.getId());
-		setCondition(from.getCondition());
+		setConditions(from.getConditions());
 	}
 
 	/**

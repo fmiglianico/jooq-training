@@ -12,42 +12,42 @@ package jooq.training.generated.tables.interfaces;
 public interface IContrat extends java.io.Serializable {
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.ID</code>.
+	 * Setter for <code>jooq.contrat.id</code>.
 	 */
 	public void setId(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.ID</code>.
+	 * Getter for <code>jooq.contrat.id</code>.
 	 */
 	public java.lang.Integer getId();
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.ASSURE_ID</code>.
+	 * Setter for <code>jooq.contrat.assure_id</code>.
 	 */
 	public void setAssureId(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.ASSURE_ID</code>.
+	 * Getter for <code>jooq.contrat.assure_id</code>.
 	 */
 	public java.lang.Integer getAssureId();
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.FRANCHISE</code>.
+	 * Setter for <code>jooq.contrat.franchise</code>.
 	 */
 	public void setFranchise(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.FRANCHISE</code>.
+	 * Getter for <code>jooq.contrat.franchise</code>.
 	 */
 	public java.lang.Integer getFranchise();
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.LIMITE_MAX</code>.
+	 * Setter for <code>jooq.contrat.limite_max</code>.
 	 */
 	public void setLimiteMax(java.lang.Integer value);
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.LIMITE_MAX</code>.
+	 * Getter for <code>jooq.contrat.limite_max</code>.
 	 */
 	public java.lang.Integer getLimiteMax();
 

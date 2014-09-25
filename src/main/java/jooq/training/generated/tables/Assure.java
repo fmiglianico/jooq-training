@@ -11,10 +11,10 @@ package jooq.training.generated.tables;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Assure extends org.jooq.impl.TableImpl<jooq.training.generated.tables.records.AssureRecord> {
 
-	private static final long serialVersionUID = -790951464;
+	private static final long serialVersionUID = -1123035894;
 
 	/**
-	 * The singleton instance of <code>PUBLIC.ASSURE</code>
+	 * The singleton instance of <code>jooq.assure</code>
 	 */
 	public static final jooq.training.generated.tables.Assure ASSURE = new jooq.training.generated.tables.Assure();
 
@@ -27,34 +27,34 @@ public class Assure extends org.jooq.impl.TableImpl<jooq.training.generated.tabl
 	}
 
 	/**
-	 * The column <code>PUBLIC.ASSURE.ID</code>.
+	 * The column <code>jooq.assure.id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.Integer> ID = createField("ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.Integer> ID = createField("id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.ASSURE.FIRST_NAME</code>.
+	 * The column <code>jooq.assure.first_name</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.String> FIRST_NAME = createField("FIRST_NAME", org.jooq.impl.SQLDataType.VARCHAR.length(50), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.String> FIRST_NAME = createField("first_name", org.jooq.impl.SQLDataType.VARCHAR.length(50), this, "");
 
 	/**
-	 * The column <code>PUBLIC.ASSURE.LAST_NAME</code>.
+	 * The column <code>jooq.assure.last_name</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.String> LAST_NAME = createField("LAST_NAME", org.jooq.impl.SQLDataType.VARCHAR.length(50).nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.lang.String> LAST_NAME = createField("last_name", org.jooq.impl.SQLDataType.VARCHAR.length(50).nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.ASSURE.DATE_OF_BIRTH</code>.
+	 * The column <code>jooq.assure.date_of_birth</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.sql.Timestamp> DATE_OF_BIRTH = createField("DATE_OF_BIRTH", org.jooq.impl.SQLDataType.TIMESTAMP, this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.AssureRecord, java.sql.Timestamp> DATE_OF_BIRTH = createField("date_of_birth", org.jooq.impl.SQLDataType.TIMESTAMP, this, "");
 
 	/**
-	 * Create a <code>PUBLIC.ASSURE</code> table reference
+	 * Create a <code>jooq.assure</code> table reference
 	 */
 	public Assure() {
-		this("ASSURE", null);
+		this("assure", null);
 	}
 
 	/**
-	 * Create an aliased <code>PUBLIC.ASSURE</code> table reference
+	 * Create an aliased <code>jooq.assure</code> table reference
 	 */
 	public Assure(java.lang.String alias) {
 		this(alias, jooq.training.generated.tables.Assure.ASSURE);
@@ -65,7 +65,15 @@ public class Assure extends org.jooq.impl.TableImpl<jooq.training.generated.tabl
 	}
 
 	private Assure(java.lang.String alias, org.jooq.Table<jooq.training.generated.tables.records.AssureRecord> aliased, org.jooq.Field<?>[] parameters) {
-		super(alias, jooq.training.generated.Public.PUBLIC, aliased, parameters, "");
+		super(alias, jooq.training.generated.Jooq.JOOQ, aliased, parameters, "");
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public org.jooq.Identity<jooq.training.generated.tables.records.AssureRecord, java.lang.Integer> getIdentity() {
+		return jooq.training.generated.Keys.IDENTITY_ASSURE;
 	}
 
 	/**
@@ -73,7 +81,7 @@ public class Assure extends org.jooq.impl.TableImpl<jooq.training.generated.tabl
 	 */
 	@Override
 	public org.jooq.UniqueKey<jooq.training.generated.tables.records.AssureRecord> getPrimaryKey() {
-		return jooq.training.generated.Keys.SYS_PK_10092;
+		return jooq.training.generated.Keys.KEY_ASSURE_PRIMARY;
 	}
 
 	/**
@@ -81,7 +89,7 @@ public class Assure extends org.jooq.impl.TableImpl<jooq.training.generated.tabl
 	 */
 	@Override
 	public java.util.List<org.jooq.UniqueKey<jooq.training.generated.tables.records.AssureRecord>> getKeys() {
-		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.AssureRecord>>asList(jooq.training.generated.Keys.SYS_PK_10092);
+		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.AssureRecord>>asList(jooq.training.generated.Keys.KEY_ASSURE_PRIMARY);
 	}
 
 	/**

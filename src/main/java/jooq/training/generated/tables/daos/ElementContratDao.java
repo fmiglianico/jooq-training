@@ -34,23 +34,23 @@ public class ElementContratDao extends org.jooq.impl.DAOImpl<jooq.training.gener
 	}
 
 	/**
-	 * Fetch records that have <code>ID IN (values)</code>
+	 * Fetch records that have <code>id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.ElementContrat> fetchById(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.ID, values);
 	}
 
 	/**
-	 * Fetch a unique record that has <code>ID = value</code>
+	 * Fetch a unique record that has <code>id = value</code>
 	 */
 	public jooq.training.generated.tables.pojos.ElementContrat fetchOneById(java.lang.Integer value) {
 		return fetchOne(jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.ID, value);
 	}
 
 	/**
-	 * Fetch records that have <code>CONDITION IN (values)</code>
+	 * Fetch records that have <code>conditions IN (values)</code>
 	 */
-	public java.util.List<jooq.training.generated.tables.pojos.ElementContrat> fetchByCondition(java.lang.String... values) {
-		return fetch(jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.CONDITION, values);
+	public java.util.List<jooq.training.generated.tables.pojos.ElementContrat> fetchByConditions(java.lang.String... values) {
+		return fetch(jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT.CONDITIONS, values);
 	}
 }

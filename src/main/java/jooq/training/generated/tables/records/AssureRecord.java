@@ -11,10 +11,10 @@ package jooq.training.generated.tables.records;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.training.generated.tables.records.AssureRecord> implements org.jooq.Record4<java.lang.Integer, java.lang.String, java.lang.String, java.sql.Timestamp>, jooq.training.generated.tables.interfaces.IAssure {
 
-	private static final long serialVersionUID = 1981425277;
+	private static final long serialVersionUID = 1474051457;
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.ID</code>.
+	 * Setter for <code>jooq.assure.id</code>.
 	 */
 	@Override
 	public void setId(java.lang.Integer value) {
@@ -22,7 +22,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.ID</code>.
+	 * Getter for <code>jooq.assure.id</code>.
 	 */
 	@Override
 	public java.lang.Integer getId() {
@@ -30,7 +30,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.FIRST_NAME</code>.
+	 * Setter for <code>jooq.assure.first_name</code>.
 	 */
 	@Override
 	public void setFirstName(java.lang.String value) {
@@ -38,7 +38,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.FIRST_NAME</code>.
+	 * Getter for <code>jooq.assure.first_name</code>.
 	 */
 	@Override
 	public java.lang.String getFirstName() {
@@ -46,7 +46,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.LAST_NAME</code>.
+	 * Setter for <code>jooq.assure.last_name</code>.
 	 */
 	@Override
 	public void setLastName(java.lang.String value) {
@@ -54,7 +54,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.LAST_NAME</code>.
+	 * Getter for <code>jooq.assure.last_name</code>.
 	 */
 	@Override
 	public java.lang.String getLastName() {
@@ -62,7 +62,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.ASSURE.DATE_OF_BIRTH</code>.
+	 * Setter for <code>jooq.assure.date_of_birth</code>.
 	 */
 	@Override
 	public void setDateOfBirth(java.sql.Timestamp value) {
@@ -70,7 +70,7 @@ public class AssureRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.trainin
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ASSURE.DATE_OF_BIRTH</code>.
+	 * Getter for <code>jooq.assure.date_of_birth</code>.
 	 */
 	@Override
 	public java.sql.Timestamp getDateOfBirth() {

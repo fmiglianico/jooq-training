@@ -11,10 +11,10 @@ package jooq.training.generated.tables.records;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ElementContratToContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.training.generated.tables.records.ElementContratToContratRecord> implements org.jooq.Record2<java.lang.Integer, java.lang.Integer>, jooq.training.generated.tables.interfaces.IElementContratToContrat {
 
-	private static final long serialVersionUID = -1399488420;
+	private static final long serialVersionUID = 565025440;
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID</code>.
+	 * Setter for <code>jooq.element_contrat_to_contrat.contrat_id</code>.
 	 */
 	@Override
 	public void setContratId(java.lang.Integer value) {
@@ -22,7 +22,7 @@ public class ElementContratToContratRecord extends org.jooq.impl.UpdatableRecord
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID</code>.
+	 * Getter for <code>jooq.element_contrat_to_contrat.contrat_id</code>.
 	 */
 	@Override
 	public java.lang.Integer getContratId() {
@@ -30,7 +30,7 @@ public class ElementContratToContratRecord extends org.jooq.impl.UpdatableRecord
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID</code>.
+	 * Setter for <code>jooq.element_contrat_to_contrat.element_contrat_id</code>.
 	 */
 	@Override
 	public void setElementContratId(java.lang.Integer value) {
@@ -38,7 +38,7 @@ public class ElementContratToContratRecord extends org.jooq.impl.UpdatableRecord
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID</code>.
+	 * Getter for <code>jooq.element_contrat_to_contrat.element_contrat_id</code>.
 	 */
 	@Override
 	public java.lang.Integer getElementContratId() {

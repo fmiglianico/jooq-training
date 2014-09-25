@@ -1,12 +1,12 @@
 CREATE TABLE assure (
-  id              INTEGER     NOT NULL PRIMARY KEY,
+  id              INTEGER     NOT NULL PRIMARY KEY AUTO_INCREMENT,
   first_name      VARCHAR(50),
   last_name       VARCHAR(50)  NOT NULL,
   date_of_birth   DATE
 );
 
 CREATE TABLE contrat (
-  id              INTEGER     NOT NULL PRIMARY KEY,
+  id              INTEGER     NOT NULL PRIMARY KEY AUTO_INCREMENT,
   assure_id       INTEGER     NOT NULL,
   franchise       INTEGER     NOT NULL,
   limite_max      INTEGER     NOT NULL,
@@ -15,8 +15,8 @@ CREATE TABLE contrat (
 );
 
 CREATE TABLE element_contrat (
-  id              INTEGER     NOT NULL PRIMARY KEY,
-  condition       VARCHAR(200) NOT NULL
+  id              INTEGER     NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  conditions       VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE element_contrat_to_contrat (

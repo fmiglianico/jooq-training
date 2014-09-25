@@ -11,10 +11,10 @@ package jooq.training.generated.tables;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ElementContratToContrat extends org.jooq.impl.TableImpl<jooq.training.generated.tables.records.ElementContratToContratRecord> {
 
-	private static final long serialVersionUID = -479108666;
+	private static final long serialVersionUID = 916886094;
 
 	/**
-	 * The singleton instance of <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT</code>
+	 * The singleton instance of <code>jooq.element_contrat_to_contrat</code>
 	 */
 	public static final jooq.training.generated.tables.ElementContratToContrat ELEMENT_CONTRAT_TO_CONTRAT = new jooq.training.generated.tables.ElementContratToContrat();
 
@@ -27,24 +27,24 @@ public class ElementContratToContrat extends org.jooq.impl.TableImpl<jooq.traini
 	}
 
 	/**
-	 * The column <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID</code>.
+	 * The column <code>jooq.element_contrat_to_contrat.contrat_id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratToContratRecord, java.lang.Integer> CONTRAT_ID = createField("CONTRAT_ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratToContratRecord, java.lang.Integer> CONTRAT_ID = createField("contrat_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID</code>.
+	 * The column <code>jooq.element_contrat_to_contrat.element_contrat_id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratToContratRecord, java.lang.Integer> ELEMENT_CONTRAT_ID = createField("ELEMENT_CONTRAT_ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratToContratRecord, java.lang.Integer> ELEMENT_CONTRAT_ID = createField("element_contrat_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * Create a <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT</code> table reference
+	 * Create a <code>jooq.element_contrat_to_contrat</code> table reference
 	 */
 	public ElementContratToContrat() {
-		this("ELEMENT_CONTRAT_TO_CONTRAT", null);
+		this("element_contrat_to_contrat", null);
 	}
 
 	/**
-	 * Create an aliased <code>PUBLIC.ELEMENT_CONTRAT_TO_CONTRAT</code> table reference
+	 * Create an aliased <code>jooq.element_contrat_to_contrat</code> table reference
 	 */
 	public ElementContratToContrat(java.lang.String alias) {
 		this(alias, jooq.training.generated.tables.ElementContratToContrat.ELEMENT_CONTRAT_TO_CONTRAT);
@@ -55,7 +55,7 @@ public class ElementContratToContrat extends org.jooq.impl.TableImpl<jooq.traini
 	}
 
 	private ElementContratToContrat(java.lang.String alias, org.jooq.Table<jooq.training.generated.tables.records.ElementContratToContratRecord> aliased, org.jooq.Field<?>[] parameters) {
-		super(alias, jooq.training.generated.Public.PUBLIC, aliased, parameters, "");
+		super(alias, jooq.training.generated.Jooq.JOOQ, aliased, parameters, "");
 	}
 
 	/**
@@ -63,7 +63,7 @@ public class ElementContratToContrat extends org.jooq.impl.TableImpl<jooq.traini
 	 */
 	@Override
 	public org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratToContratRecord> getPrimaryKey() {
-		return jooq.training.generated.Keys.SYS_PK_10117;
+		return jooq.training.generated.Keys.KEY_ELEMENT_CONTRAT_TO_CONTRAT_PRIMARY;
 	}
 
 	/**
@@ -71,7 +71,7 @@ public class ElementContratToContrat extends org.jooq.impl.TableImpl<jooq.traini
 	 */
 	@Override
 	public java.util.List<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratToContratRecord>> getKeys() {
-		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratToContratRecord>>asList(jooq.training.generated.Keys.SYS_PK_10117);
+		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratToContratRecord>>asList(jooq.training.generated.Keys.KEY_ELEMENT_CONTRAT_TO_CONTRAT_PRIMARY);
 	}
 
 	/**

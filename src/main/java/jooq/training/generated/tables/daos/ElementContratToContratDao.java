@@ -34,14 +34,14 @@ public class ElementContratToContratDao extends org.jooq.impl.DAOImpl<jooq.train
 	}
 
 	/**
-	 * Fetch records that have <code>CONTRAT_ID IN (values)</code>
+	 * Fetch records that have <code>contrat_id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.ElementContratToContrat> fetchByContratId(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.ElementContratToContrat.ELEMENT_CONTRAT_TO_CONTRAT.CONTRAT_ID, values);
 	}
 
 	/**
-	 * Fetch records that have <code>ELEMENT_CONTRAT_ID IN (values)</code>
+	 * Fetch records that have <code>element_contrat_id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.ElementContratToContrat> fetchByElementContratId(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.ElementContratToContrat.ELEMENT_CONTRAT_TO_CONTRAT.ELEMENT_CONTRAT_ID, values);

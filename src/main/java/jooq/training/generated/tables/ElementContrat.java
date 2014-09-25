@@ -11,10 +11,10 @@ package jooq.training.generated.tables;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ElementContrat extends org.jooq.impl.TableImpl<jooq.training.generated.tables.records.ElementContratRecord> {
 
-	private static final long serialVersionUID = 689771806;
+	private static final long serialVersionUID = 279662422;
 
 	/**
-	 * The singleton instance of <code>PUBLIC.ELEMENT_CONTRAT</code>
+	 * The singleton instance of <code>jooq.element_contrat</code>
 	 */
 	public static final jooq.training.generated.tables.ElementContrat ELEMENT_CONTRAT = new jooq.training.generated.tables.ElementContrat();
 
@@ -27,24 +27,24 @@ public class ElementContrat extends org.jooq.impl.TableImpl<jooq.training.genera
 	}
 
 	/**
-	 * The column <code>PUBLIC.ELEMENT_CONTRAT.ID</code>.
+	 * The column <code>jooq.element_contrat.id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratRecord, java.lang.Integer> ID = createField("ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratRecord, java.lang.Integer> ID = createField("id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.ELEMENT_CONTRAT.CONDITION</code>.
+	 * The column <code>jooq.element_contrat.conditions</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratRecord, java.lang.String> CONDITION = createField("CONDITION", org.jooq.impl.SQLDataType.VARCHAR.length(200).nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ElementContratRecord, java.lang.String> CONDITIONS = createField("conditions", org.jooq.impl.SQLDataType.VARCHAR.length(200).nullable(false), this, "");
 
 	/**
-	 * Create a <code>PUBLIC.ELEMENT_CONTRAT</code> table reference
+	 * Create a <code>jooq.element_contrat</code> table reference
 	 */
 	public ElementContrat() {
-		this("ELEMENT_CONTRAT", null);
+		this("element_contrat", null);
 	}
 
 	/**
-	 * Create an aliased <code>PUBLIC.ELEMENT_CONTRAT</code> table reference
+	 * Create an aliased <code>jooq.element_contrat</code> table reference
 	 */
 	public ElementContrat(java.lang.String alias) {
 		this(alias, jooq.training.generated.tables.ElementContrat.ELEMENT_CONTRAT);
@@ -55,7 +55,15 @@ public class ElementContrat extends org.jooq.impl.TableImpl<jooq.training.genera
 	}
 
 	private ElementContrat(java.lang.String alias, org.jooq.Table<jooq.training.generated.tables.records.ElementContratRecord> aliased, org.jooq.Field<?>[] parameters) {
-		super(alias, jooq.training.generated.Public.PUBLIC, aliased, parameters, "");
+		super(alias, jooq.training.generated.Jooq.JOOQ, aliased, parameters, "");
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public org.jooq.Identity<jooq.training.generated.tables.records.ElementContratRecord, java.lang.Integer> getIdentity() {
+		return jooq.training.generated.Keys.IDENTITY_ELEMENT_CONTRAT;
 	}
 
 	/**
@@ -63,7 +71,7 @@ public class ElementContrat extends org.jooq.impl.TableImpl<jooq.training.genera
 	 */
 	@Override
 	public org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratRecord> getPrimaryKey() {
-		return jooq.training.generated.Keys.SYS_PK_10110;
+		return jooq.training.generated.Keys.KEY_ELEMENT_CONTRAT_PRIMARY;
 	}
 
 	/**
@@ -71,7 +79,7 @@ public class ElementContrat extends org.jooq.impl.TableImpl<jooq.training.genera
 	 */
 	@Override
 	public java.util.List<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratRecord>> getKeys() {
-		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratRecord>>asList(jooq.training.generated.Keys.SYS_PK_10110);
+		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ElementContratRecord>>asList(jooq.training.generated.Keys.KEY_ELEMENT_CONTRAT_PRIMARY);
 	}
 
 	/**

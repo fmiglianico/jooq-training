@@ -11,10 +11,10 @@ package jooq.training.generated.tables.records;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.training.generated.tables.records.ContratRecord> implements org.jooq.Record4<java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer>, jooq.training.generated.tables.interfaces.IContrat {
 
-	private static final long serialVersionUID = -497044094;
+	private static final long serialVersionUID = -2081962054;
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.ID</code>.
+	 * Setter for <code>jooq.contrat.id</code>.
 	 */
 	@Override
 	public void setId(java.lang.Integer value) {
@@ -22,7 +22,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.ID</code>.
+	 * Getter for <code>jooq.contrat.id</code>.
 	 */
 	@Override
 	public java.lang.Integer getId() {
@@ -30,7 +30,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.ASSURE_ID</code>.
+	 * Setter for <code>jooq.contrat.assure_id</code>.
 	 */
 	@Override
 	public void setAssureId(java.lang.Integer value) {
@@ -38,7 +38,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.ASSURE_ID</code>.
+	 * Getter for <code>jooq.contrat.assure_id</code>.
 	 */
 	@Override
 	public java.lang.Integer getAssureId() {
@@ -46,7 +46,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.FRANCHISE</code>.
+	 * Setter for <code>jooq.contrat.franchise</code>.
 	 */
 	@Override
 	public void setFranchise(java.lang.Integer value) {
@@ -54,7 +54,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.FRANCHISE</code>.
+	 * Getter for <code>jooq.contrat.franchise</code>.
 	 */
 	@Override
 	public java.lang.Integer getFranchise() {
@@ -62,7 +62,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Setter for <code>PUBLIC.CONTRAT.LIMITE_MAX</code>.
+	 * Setter for <code>jooq.contrat.limite_max</code>.
 	 */
 	@Override
 	public void setLimiteMax(java.lang.Integer value) {
@@ -70,7 +70,7 @@ public class ContratRecord extends org.jooq.impl.UpdatableRecordImpl<jooq.traini
 	}
 
 	/**
-	 * Getter for <code>PUBLIC.CONTRAT.LIMITE_MAX</code>.
+	 * Getter for <code>jooq.contrat.limite_max</code>.
 	 */
 	@Override
 	public java.lang.Integer getLimiteMax() {

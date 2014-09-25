@@ -34,35 +34,35 @@ public class AssureDao extends org.jooq.impl.DAOImpl<jooq.training.generated.tab
 	}
 
 	/**
-	 * Fetch records that have <code>ID IN (values)</code>
+	 * Fetch records that have <code>id IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Assure> fetchById(java.lang.Integer... values) {
 		return fetch(jooq.training.generated.tables.Assure.ASSURE.ID, values);
 	}
 
 	/**
-	 * Fetch a unique record that has <code>ID = value</code>
+	 * Fetch a unique record that has <code>id = value</code>
 	 */
 	public jooq.training.generated.tables.pojos.Assure fetchOneById(java.lang.Integer value) {
 		return fetchOne(jooq.training.generated.tables.Assure.ASSURE.ID, value);
 	}
 
 	/**
-	 * Fetch records that have <code>FIRST_NAME IN (values)</code>
+	 * Fetch records that have <code>first_name IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Assure> fetchByFirstName(java.lang.String... values) {
 		return fetch(jooq.training.generated.tables.Assure.ASSURE.FIRST_NAME, values);
 	}
 
 	/**
-	 * Fetch records that have <code>LAST_NAME IN (values)</code>
+	 * Fetch records that have <code>last_name IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Assure> fetchByLastName(java.lang.String... values) {
 		return fetch(jooq.training.generated.tables.Assure.ASSURE.LAST_NAME, values);
 	}
 
 	/**
-	 * Fetch records that have <code>DATE_OF_BIRTH IN (values)</code>
+	 * Fetch records that have <code>date_of_birth IN (values)</code>
 	 */
 	public java.util.List<jooq.training.generated.tables.pojos.Assure> fetchByDateOfBirth(java.sql.Timestamp... values) {
 		return fetch(jooq.training.generated.tables.Assure.ASSURE.DATE_OF_BIRTH, values);

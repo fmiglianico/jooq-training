@@ -11,10 +11,10 @@ package jooq.training.generated.tables;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Contrat extends org.jooq.impl.TableImpl<jooq.training.generated.tables.records.ContratRecord> {
 
-	private static final long serialVersionUID = 301389777;
+	private static final long serialVersionUID = -859309059;
 
 	/**
-	 * The singleton instance of <code>PUBLIC.CONTRAT</code>
+	 * The singleton instance of <code>jooq.contrat</code>
 	 */
 	public static final jooq.training.generated.tables.Contrat CONTRAT = new jooq.training.generated.tables.Contrat();
 
@@ -27,34 +27,34 @@ public class Contrat extends org.jooq.impl.TableImpl<jooq.training.generated.tab
 	}
 
 	/**
-	 * The column <code>PUBLIC.CONTRAT.ID</code>.
+	 * The column <code>jooq.contrat.id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> ID = createField("ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> ID = createField("id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.CONTRAT.ASSURE_ID</code>.
+	 * The column <code>jooq.contrat.assure_id</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> ASSURE_ID = createField("ASSURE_ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> ASSURE_ID = createField("assure_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.CONTRAT.FRANCHISE</code>.
+	 * The column <code>jooq.contrat.franchise</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> FRANCHISE = createField("FRANCHISE", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> FRANCHISE = createField("franchise", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * The column <code>PUBLIC.CONTRAT.LIMITE_MAX</code>.
+	 * The column <code>jooq.contrat.limite_max</code>.
 	 */
-	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> LIMITE_MAX = createField("LIMITE_MAX", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
+	public final org.jooq.TableField<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> LIMITE_MAX = createField("limite_max", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
-	 * Create a <code>PUBLIC.CONTRAT</code> table reference
+	 * Create a <code>jooq.contrat</code> table reference
 	 */
 	public Contrat() {
-		this("CONTRAT", null);
+		this("contrat", null);
 	}
 
 	/**
-	 * Create an aliased <code>PUBLIC.CONTRAT</code> table reference
+	 * Create an aliased <code>jooq.contrat</code> table reference
 	 */
 	public Contrat(java.lang.String alias) {
 		this(alias, jooq.training.generated.tables.Contrat.CONTRAT);
@@ -65,7 +65,15 @@ public class Contrat extends org.jooq.impl.TableImpl<jooq.training.generated.tab
 	}
 
 	private Contrat(java.lang.String alias, org.jooq.Table<jooq.training.generated.tables.records.ContratRecord> aliased, org.jooq.Field<?>[] parameters) {
-		super(alias, jooq.training.generated.Public.PUBLIC, aliased, parameters, "");
+		super(alias, jooq.training.generated.Jooq.JOOQ, aliased, parameters, "");
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public org.jooq.Identity<jooq.training.generated.tables.records.ContratRecord, java.lang.Integer> getIdentity() {
+		return jooq.training.generated.Keys.IDENTITY_CONTRAT;
 	}
 
 	/**
@@ -73,7 +81,7 @@ public class Contrat extends org.jooq.impl.TableImpl<jooq.training.generated.tab
 	 */
 	@Override
 	public org.jooq.UniqueKey<jooq.training.generated.tables.records.ContratRecord> getPrimaryKey() {
-		return jooq.training.generated.Keys.SYS_PK_10098;
+		return jooq.training.generated.Keys.KEY_CONTRAT_PRIMARY;
 	}
 
 	/**
@@ -81,7 +89,7 @@ public class Contrat extends org.jooq.impl.TableImpl<jooq.training.generated.tab
 	 */
 	@Override
 	public java.util.List<org.jooq.UniqueKey<jooq.training.generated.tables.records.ContratRecord>> getKeys() {
-		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ContratRecord>>asList(jooq.training.generated.Keys.SYS_PK_10098);
+		return java.util.Arrays.<org.jooq.UniqueKey<jooq.training.generated.tables.records.ContratRecord>>asList(jooq.training.generated.Keys.KEY_CONTRAT_PRIMARY);
 	}
 
 	/**
